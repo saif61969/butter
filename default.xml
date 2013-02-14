@@ -98,7 +98,7 @@
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   
-   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="DKOSP" revision="jellybean" />
+   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="github" revision="jellybean" />
   
   
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
