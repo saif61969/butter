@@ -59,6 +59,7 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
+
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="github" revision="jellybean" />
@@ -86,15 +87,15 @@
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
-  <project path="prebuilts/linux-x86/toolchain/linaro" name="android_prebuilts_linux-x86_toolchain_linaro" remote="github" revision="jellybean"/>
-  <project path="vendor/dkosp" name="android_vendor_dkosp" remote="github" revision="jellybean" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
+  <project path="vendor/aokp" name="android_vendor_aokp" remote="github" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -121,7 +122,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid"  />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -140,7 +141,6 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -182,7 +182,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci"  />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -276,6 +276,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -285,10 +286,11 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc"  />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -314,9 +316,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
- 
-<!--  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />-->
-<!--  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />-->
+  <!-- <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />-->
+<!-- <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />-->
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
@@ -344,6 +345,4 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
  
-  
-  
 </manifest>

@@ -1,2 +1,2 @@
-platform_manifest
+DragunKorr_manifest
 =================
