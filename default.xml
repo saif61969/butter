@@ -81,7 +81,6 @@
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" />
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
-  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
   <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
   <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="jellybean" />
   <project path="external/nano" name="android_external_nano" remote="github" revision="jellybean" />
