@@ -3,11 +3,11 @@
 
    <remote name="aokp"
            fetch="https://github.com/AOKP/"
-           review="gerrit.aokp.co" />
+           
            
    <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />        
+                 
            
 
 
