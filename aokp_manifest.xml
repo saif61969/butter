@@ -5,7 +5,7 @@
            fetch="https://github.com/AOKP/"
            
            
-   <remote name="cm"
+   <remote name="github"
            fetch="https://github.com/CyanogenMod/"
                  
            
