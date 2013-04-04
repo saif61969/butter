@@ -11,6 +11,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Phone" />
   <project name="Android-Butter/dragunkorr_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
+  <project name="Android-Butter/dragunkorr_vendor_cm_proprietary" path="vendor/cm/proprietary" revision="cm-10.1" />
   <project name="Android-Butter/dragunkorr_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <project name="Android-Butter/dragunkorr_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="master" />
   <project name="Android-Butter/dragunkorr_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
