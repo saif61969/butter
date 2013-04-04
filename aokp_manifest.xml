@@ -7,17 +7,17 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   
   
-  <project name="Android-Butter/butter_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="jellybean" />
-  <project name="Android-Butter/butter_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
-  <project name="Android-Butter/butter_frameworks_av" path="frameworks/av" revision="jellybean" />
-  <project name="Android-Butter/butter_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
-  <project name="Android-Butter/butter_vendor_htc" path="vendor/htc" revision="jellybean" />
-  <project name="Android-Butter/butter_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean" />
-  <project name="Android-Butter/butter_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean" />
-  <project name="Android-Butter/butter_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
-  <project name="Android-Butter/device_htc_msm8660-common" path="htc/msm8660-common" revision="master" />
-  <project name="Android-Butter/device_htc_pyramid" path="htc/pyramid" revision="master" />
+  <project name="Android-Butter/platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="master" />
+  <project name="Android-Butter/platform_hardware_libhardware" path="hardware/libhardware" revision="master" />
+  <project name="Android-Butter/platform_frameworks_av" path="frameworks/av" revision="master" />
+  <project name="Android-Butter/platform_hardware_qcom_media" path="hardware/qcom/media" revision="master" />
+  <project name="Android-Butter/platform_vendor_htc" path="vendor/htc" revision="master" />
+  <project name="Android-Butter/platform_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
+  <project name="Android-Butter/platform_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="master" />
+  <project name="Android-Butter/platform_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="master" />
+  <project name="Android-Butter/platform_htc_msm8660-common" path="htc/msm8660-common" revision="master" />
+  <project name="Android-Butter/platform_htc_pyramid" path="htc/pyramid" revision="master" />
   <project name="Android-Butter/vendor_aokp" path="vendor/aokp" revision="jb-mr1" />
-  <project name="Android-Butter/butter_frameworks_native" path="frameworks/native" revision="jellybean" />
+  <project name="Android-Butter/platform_frameworks_native" path="frameworks/native" revision="master" />
   
 </manifest>
