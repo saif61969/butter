@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/frameworks_native" />
-  <project name="Android-Butter/butter_frameworks_native" path="frameworks/native" revision="jellybean" />
-  <remove-project name="AOKP/frameworks_av" />
-  <project name="Android-Butter/butter_frameworks_av" path="frameworks/av" revision="jellybean" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <project name="Android-Butter/butter_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="AOKP/frameworks_av" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  
+  
+  <project name="Android-Butter/butter_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="jellybean" />
+  <project name="Android-Butter/butter_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
+  <project name="Android-Butter/butter_frameworks_av" path="frameworks/av" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
   <project name="Android-Butter/butter_vendor_htc" path="vendor/htc" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean" />
@@ -15,5 +18,6 @@
   <project name="Android-Butter/butter_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
   <project name="Android-Butter/aokp_device_htc_pyramid" path="device/htc/pyramid" revision="jellybean" />
   <project name="Android-Butter/vendor_aokp" path="vendor/aokp" revision="jb-mr1" />
+  <project name="Android-Butter/butter_frameworks_native" path="frameworks/native" revision="jellybean" />
   
 </manifest>
