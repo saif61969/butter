@@ -8,7 +8,7 @@
   <project name="Android-Butter/butter_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="Android-Butter/butter_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
-  <project name="Android-Butter/butter_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="jellybean" />
+  <project name="Android-Butter/butter_vendor_htc" path="vendor/htc" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
