@@ -3,6 +3,14 @@ butter_manifest
 
 TO BUILD Butter
    repo init -u git://github.com/Android-Butter/butter.git -b master
+   
+   
+======================================================================   
+   
+   
+   
+   
+   
 
 
 
@@ -12,3 +20,19 @@ TO BUILD M2
 mkdir -p .repo/local_manifests
 
 wget https://github.com/Android-Butter/butter/raw/master/M2_manifest.xml -O .repo/local_manifests/M2_manifest.xml
+
+
+======================================================================
+
+
+
+
+
+
+
+TO BUILD Jelly beer
+   repo init -u git://github.com/BeerGang/android.git -b cm-10.1
+
+mkdir -p .repo/local_manifests
+
+wget https://github.com/Android-Butter/butter/raw/master/beer_manifest.xml -O .repo/local_manifests/beer_manifest.xml
