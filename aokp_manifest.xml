@@ -13,7 +13,7 @@
   <project name="Android-Butter/butter_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean" />
   <project name="Android-Butter/butter_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
   <project name="Android-Butter/butter_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
-  <project name="Android-Butter/butter-aokp_device_htc_pyramid" path="device/htc/pyramid" revision="jellybean" />
+  <project name="Android-Butter/aokp_device_htc_pyramid" path="device/htc/pyramid" revision="jellybean" />
   <project name="Android-Butter/vendor_aokp" path="vendor/aokp" revision="jb-mr1" />
   
 </manifest>
