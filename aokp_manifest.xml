@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+   <remote name="aokp"
+           fetch="https://github.com/AOKP/"
+           review="gerrit.aokp.co" />
+           
+   <remote name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />        
+           
+
+
+
+
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/frameworks_av" />
