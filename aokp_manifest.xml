@@ -4,9 +4,7 @@
    <remote name="aokp"
            fetch="https://github.com/AOKP/"
            
-           
-   <remote name="github"
-           fetch="https://github.com/CyanogenMod/"
+  
                  
            
 
