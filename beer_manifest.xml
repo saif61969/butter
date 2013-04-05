@@ -9,7 +9,7 @@
   <project name="Android-Butter/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   <project name="Android-Butter/android_hardware_libhardware" path="hardware/libhardware" revision="master" />
   <project name="Android-Butter/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
-  <project name="Android-Butter/vendor_cm_proprietary" path="cm/proprietary" revision="cm-10.1" />
+  <project name="Android-Butter/vendor_cm_proprietary" path="vendor/cm/proprietary" revision="cm-10.1" />
   <project name="Android-Butter/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <project name="Android-Butter/android_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="master" />
   <project name="Android-Butter/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
@@ -17,7 +17,7 @@
   <project name="Android-Butter/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="master" />
   <project name="Android-Butter/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="master" />
   <project name="Android-Butter/android_device_htc_pyramid" path="device/htc/pyramid" revision="master" />
-  <project name="Android-Butter/kernel_Buttered_Popcorn" path="Buttered/Popcorn" revision="cm-10.1-linaro" />
+  <project name="Android-Butter/kernel_Buttered_Popcorn" path="kernel/Buttered/Popcorn" revision="cm-10.1-linaro" />
   <project name="Android-Butter/butter_prebuilt_linux-x86_toolchain_linaro-strawberryshortcake-oven" path="prebuilt/linux-x86/toolchain/linaro-strawberryshortcake-oven" revision="master" />
   
 </manifest>
