@@ -21,11 +21,5 @@ mkdir -p .repo/local_manifests
 
 wget https://github.com/Android-Butter/butter/raw/master/beer_manifest.xml -O .repo/local_manifests/beer_manifest.xml
 ======================================================================
-To BUILD Butter aokp
 
-repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr1
-
-mkdir -p .repo/local_manifests
-
-wget https://github.com/Android-Butter/butter/raw/master/aokp_manifest.xml -O .repo/local_manifests/aokp_manifest.xml
 
