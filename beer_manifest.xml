@@ -11,6 +11,7 @@
   <project name="Android-Butter/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
   <project name="Android-Butter/vendor_cm_proprietary" path="vendor/cm/proprietary" revision="cm-10.1" />
   <project name="Android-Butter/beer_vendor_cm" path="vendor/cm" revision="cm-10.1" />
+  <project name="Android-Butter/packages_apps_Launcher2" path="apps/Launcher2" revision="cm-10.1" />
   <project name="Android-Butter/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <project name="Android-Butter/android_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="master" />
   <project name="Android-Butter/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
