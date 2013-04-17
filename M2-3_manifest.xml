@@ -8,7 +8,7 @@
   <project name="Android-Butter/android_hardware_libhardware" path="hardware/libhardware" revision="master" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="Android-Butter/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
-  <project name="Android-Butter/vendor_cm_proprietary" path="cm/proprietary" revision="cm-10.1" />
+  <project name="Android-Butter/vendor_cm_proprietary" path="vendor/cm/proprietary" revision="cm-10.1" />
   <project name="Android-Butter/android_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="master" />
   <project name="Android-Butter/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
   <project name="Android-Butter/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="master" />
