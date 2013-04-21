@@ -3,7 +3,7 @@ butter_manifest
 
 TO BUILD Butter
 
-repo init -u git://github.com/Android-Butter/butter.git -b master
+repo init -u git://github.com/Android-Butter/butter.git -b master && repo sync -f
 ======================================================================   
 TO BUILD Butter CM-10.1-M2-M3
 
